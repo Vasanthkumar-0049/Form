@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #a1c4fa;
+}
+
+.s1{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.box{
+    border-radius:8px;
+    border: 2px solid;
+    /* border: none; */
+    width: 400px;
+    height: 500px;
+    background-color: white;
+}
+
+.box > img{
+    width:100%;
+    height: 100%;
+}
+
+
+.head1{
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 400;
+}
+
+input[type="text"]{
+    height: 30px;
+    width:200px;
+    background-color: white;
+    border: groove;
+    /* border-bottom: 20px; */
+    outline: none;
+    margin: 20px;
+}
+
+input[type="email"]{
+    height: 30px;
+    width:200px;
+    background-color: white;
+    border: groove;
+    outline: none;
+    margin: 20px;
+}
+
+input[type="password"]{
+    height: 30px;
+    width:200px;
+    background-color: white;
+    border: groove;
+    outline: none;
+    margin: 20px;
+   
+}
+
+.box1{
+    border:2px solid;
+    width: 280px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid;
+    border-radius:6px;
+}
+
+.box1 > form{
+    /* text-align: center; */
+    padding: 20px;
+}
